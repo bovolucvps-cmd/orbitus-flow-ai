@@ -1,10 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Rocket, MessageCircle, Sparkles } from "lucide-react";
-
 const ContactForm = () => {
-
-  return (
-    <section id="contact-form" className="py-20 px-4 bg-gradient-hero">
+  return <section id="contact-form" className="py-20 px-4 bg-gradient-hero">
       <div className="container mx-auto max-w-4xl">
         <div className="text-center mb-12 space-y-4">
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-secondary border border-primary/20 mb-4">
@@ -30,25 +27,14 @@ const ContactForm = () => {
               <Sparkles className="w-10 h-10 text-white" />
             </div>
             
-            <h3 className="text-2xl md:text-3xl font-bold max-w-2xl">
-              Pronto para transformar sua operação em uma máquina de lucro?
-            </h3>
+            <h3 className="text-2xl md:text-3xl font-bold max-w-2xl">P</h3>
             
             <p className="text-lg text-muted-foreground max-w-xl">
               Fale diretamente com nossos especialistas via WhatsApp e agende sua consultoria gratuita agora mesmo!
             </p>
 
-            <Button 
-              size="xl" 
-              variant="gradient" 
-              className="group text-lg px-12 py-8 h-auto"
-              asChild
-            >
-              <a 
-                href="https://wa.me/551231974778?text=Ol%C3%A1%2C%20gostaria%20de%20marcar%20uma%20consultoria%20gratuita!"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+            <Button size="xl" variant="gradient" className="group text-lg px-12 py-8 h-auto" asChild>
+              <a href="https://wa.me/551231974778?text=Ol%C3%A1%2C%20gostaria%20de%20marcar%20uma%20consultoria%20gratuita!" target="_blank" rel="noopener noreferrer">
                 <MessageCircle className="mr-3 h-6 w-6" />
                 Agendar uma consultoria gratuita!
               </a>
@@ -71,8 +57,6 @@ const ContactForm = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default ContactForm;
