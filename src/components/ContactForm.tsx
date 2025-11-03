@@ -27,7 +27,7 @@ const ContactForm = () => {
               <Sparkles className="w-10 h-10 text-white" />
             </div>
             
-            <h3 className="text-2xl md:text-3xl font-bold max-w-2xl">P</h3>
+            <h3 className="text-2xl md:text-3xl font-bold max-w-2xl">Pronto para escalar seu negócio utilizando inteligência artificial?</h3>
             
             <p className="text-lg text-muted-foreground max-w-xl">
               Fale diretamente com nossos especialistas via WhatsApp e agende sua consultoria gratuita agora mesmo!
