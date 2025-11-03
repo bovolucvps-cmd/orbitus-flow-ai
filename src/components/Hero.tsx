@@ -44,16 +44,16 @@ const Hero = () => {
           <h1 className="animate-fade-up text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight" style={{
           animationDelay: "0.2s"
         }}>
-            Ecossistemas de IA que Transformam sua{" "}
             <span className="bg-gradient-primary bg-clip-text text-transparent">
-              Operação em uma Máquina de Lucro
-            </span>
+              Ecossistemas de IA
+            </span>{" "}
+            para escalar seu negócio
           </h1>
 
           {/* Sub-headline */}
           <p className="animate-fade-up text-lg md:text-xl text-muted-foreground max-w-3xl" style={{
           animationDelay: "0.3s"
-        }}>Criamos ecossistemas de IA que trabalham verdadeiramente como uma equipe de funcionários, 24/7 e de forma inteligente e otimizada.</p>
+        }}>Entregamos soluções utilizando inteligência artificial que trabalham 24/7 de forma estratégica e otimizada</p>
 
           {/* CTA Buttons */}
           <div className="animate-fade-up flex flex-col sm:flex-row gap-4 w-full sm:w-auto" style={{
